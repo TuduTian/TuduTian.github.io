@@ -1,0 +1,36 @@
+Arguments: 
+  D:\node\node\node.exe D:\node\node\node_modules\yarn\bin\yarn.js init -有
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\app\phpstudy_pro\Extensions\php\php7.4.3nts;C:\ProgramData\ComposerSetup\bin;D:\app\phpstudy_pro\Extensions\redis3.0.504;C:\ProgramData\chocolatey\bin;D:\app\phpstudy_pro\Extensions\MySQL8.0.12\bin;C:\Program Files\dotnet\;D:\app\Git\cmd;D:\wx_code\微信web开发者工具\dll;D:\node\nvm;D:\node\node;C:\Users\钢信宝\AppData\Local\Microsoft\WindowsApps;C:\Users\钢信宝\AppData\Roaming\Composer\vendor\bin;D:\app\PhpStorm 2019.2.1\bin;D:\app\Microsoft VS Code\bin;C:\Users\钢信宝\AppData\Local\Programs\Fiddler;E:\phantomjs-2.1.1-windows\bin;C:\Program Files\JetBrains\WebStorm 2022.2\bin;;D:\flutter\bin;D:\java8\bin;E:\asSdk\tools\platform-tools;E:\asSdk\tools\emulator;E:\asSdk\tools\tools;E:\asSdk\tools\tools\bin;\bin;D:\node\nvm;D:\node\node
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (D:\node\nvm\v18.12.1\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:273:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
