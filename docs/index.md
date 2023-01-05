@@ -6,7 +6,7 @@
 <br/>
 [React学习笔记](/react)
 <br/>
-[Vue学习笔记](/vue)
+[Vue项目出错点总结](/vue)
 <br/>
 [vueHook学习笔记](/vueHook)
 <br/>
