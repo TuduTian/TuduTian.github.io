@@ -231,6 +231,48 @@ class _DemoSelectState extends State<DemoSelect> {
     );
   }
 }
+```
 
+## listView 组件的使用 (解释) 配合 ListTile
+```dart
+body: ListView(
+        children: List.generate(20, (index) {
+          return Container(
+            padding: const EdgeInsets.only(left: 10),
+            child: Column(
+              children: [
+                ListTile(
+                  isThreeLine: false, //是否三行显示
+                  leading: const Padding(
+                    padding: EdgeInsets.only(top: 6),
+                    child: Icon(Icons.person),
+                  ), // 前面添加的组件
+                  title: const Text('田志超'), // 一级标题
+                  subtitle: const Text('17630700315'), // 二级标题
+                  minLeadingWidth: 8.toDouble(), // 控制 leading 和 title 之间的距离
+                  minVerticalPadding: 6.toDouble(),
+                  trailing: const Text('1223'), // 后面添加的组件
+                  textColor: Colors.red, // 字体颜色
+                  horizontalTitleGap: 20.toDouble(),
+                  dense: true, // item 直观感受是整体大小
+                ),
+                const Divider(),
+              ],
+            ),
+          );
+        }),
+      ),
+```
 
+## 打包时丢失网络权限
+> 文件目录 
+>> C:\Users\Administrator\Desktop\app\vidio_demo\android\app\src\main\AndroidManifest.xml
+
+```dart
+  在 </manifest> 标签前面添加 
+  >>  权限授权
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 ```
