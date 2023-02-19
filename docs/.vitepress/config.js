@@ -1,5 +1,6 @@
 
 
-export default {
-  base:"https://tudutian.github.io/"
+module.exports = {
+  title: '我的学习中心',
+  base: "/"
 }
