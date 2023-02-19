@@ -11,6 +11,8 @@
 [vueHook学习笔记](/vueHook)
 <br/>
 [ts学习笔记](/ts)
+<br/>
+[vite剖析](/vite)
 
 
 <hr/>
