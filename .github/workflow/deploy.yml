@@ -2,10 +2,10 @@ name: Publish docs to github actions
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -24,7 +24,7 @@ jobs:
       - name: Build and Deploy Repo
         uses: JamesIves/github-pages-deploy-action@releases/v3-test
         with:
-          BASE_BRANCH: master
+          BASE_BRANCH: main
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
           SSH: true # SSH must be set to true so the deploy action knows which protocol to deploy with.
